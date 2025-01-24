@@ -1,0 +1,1 @@
+This repository demonstrates a potential issue in C++ when working with `std::vector<bool>`. Accessing elements outside the bounds of this specialized container might not result in an exception, leading to subtle, hard-to-debug errors.  The `bug.cpp` file shows the problematic code, while `bugSolution.cpp` offers a safer alternative.
